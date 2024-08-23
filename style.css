@@ -7,7 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 2000px;
+  min-height: 4000px;
 }
 
 .hero::before {
@@ -136,6 +136,45 @@ body {
   margin: auto;
   color: var(--pink);
 }
+
+.info {
+  background-color: var(--bg);
+  color: white;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+.info h2 {
+  color: var(--pink);
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
+}
+.info .alamat {
+  font-size: 1.1rem;
+}
+.info .description {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.info .card {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 1px solid #999;
+}
+
+.info .card-header {
+  border-bottom: 1px solid #999;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.info .card-body {
+  font-size: 1rem;
+}
+.info .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
 /* media query
 /* ekstra large */
 @media (max-width: 1200px) {
@@ -156,6 +195,7 @@ body {
     display: none;
   }
 }
+
 /* Tablet */
 @media (max-width: 768px) {
   .hero::before {
